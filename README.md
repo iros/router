@@ -1,4 +1,4 @@
-# endpoints-router [![Build Status](https://secure.travis-ci.org/tkellen/node-endpoints-router.png)](http://travis-ci.org/tkellen/node-endpoints-router)
+# router [![Build Status](https://secure.travis-ci.org/endpoints/router.png)](http://travis-ci.org/endpoints/router)
 > router layer for the endpoints framework
 
 [![NPM](https://nodei.co/npm/endpoints-router.png)](https://nodei.co/npm/endpoints-router/)
