@@ -3,12 +3,10 @@ const expect = require('chai').expect;
 
 describe('isAuthenticated', function () {
 
-  it('sends 401 if no account is logged in', function (done) {
+  it('sends 401 if no account is logged in', function () {
     var res = {send:function(code){this.code=code;}};
-    isAuthenticated({}, res, function() {
-      expect(res.code).to.equal(401);
-      done();
-    });
+    isAuthenticated({}, res);
+    expect(res.code).to.equal(401);
   });
 
   it('calls next if there is an account logged in', function (done) {
